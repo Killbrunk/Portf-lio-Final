@@ -23,9 +23,23 @@ body{
     color:var(--cor-secundaria);
 }
 
+.container{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container main{
+
+    flex: 1;
+    background-color: transparent;
+    border: 0;
+}
+
 .cabecalho{
 
-    padding: 1% 0% 1% 17%;
+    padding: 1% 0% 1% 10%;
     display: flex;
     gap: 20px;
     background-color: var(--cor-terciaria);  
@@ -34,7 +48,7 @@ body{
 .cabecalho_menu{
 
     display: flex;
-    gap: 19.2%;
+    gap: 30%;
 
 }
 
@@ -81,7 +95,7 @@ body{
     display: flex;
     align-items:center;
     justify-content: space-between;
-    padding-bottom: 13.9%;
+    padding-bottom: 3%;
 }
 
 
